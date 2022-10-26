@@ -20,76 +20,82 @@
 
                     <div class="card-body">
                         
-                        <div class="form-group">
-                            <strong>Antecedentepolicial:</strong>
-                            {{ $persona->antecedentePolicial }}
-                        </div>
-                        <div class="form-group">
-                            <strong>Fechaemision:</strong>
-                            {{ $persona->fechaEmision }}
-                        </div>
-                        <div class="form-group">
-                            <strong>Fechavencimiento:</strong>
-                            {{ $persona->fechaVencimiento }}
-                        </div>
-                        <div class="form-group">
-                            <strong>Nrocedula:</strong>
+                         <div class="form-group">
+                            <strong>Nro cedula:</strong>
                             {{ $persona->nroCedula }}
                         </div>
                         <div class="form-group">
-                            <strong>Nroruc:</strong>
-                            {{ $persona->nroRuc }}
-                        </div>
-                        <div class="form-group">
-                            <strong>Digitoindicador:</strong>
-                            {{ $persona->digitoIndicador }}
-                        </div>
-                        <div class="form-group">
-                            <strong>Primerapellido:</strong>
+                            <strong>Primer Apellido:</strong>
                             {{ $persona->primerApellido }}
                         </div>
                         <div class="form-group">
-                            <strong>Segundoapellido:</strong>
-                            {{ $persona->segundoApellido }}
-                        </div>
-                        <div class="form-group">
-                            <strong>Apellidocasada:</strong>
-                            {{ $persona->apellidoCasada }}
-                        </div>
-                        <div class="form-group">
-                            <strong>Primernombre:</strong>
+                            <strong>Primer Nombre:</strong>
                             {{ $persona->primerNombre }}
                         </div>
                         <div class="form-group">
-                            <strong>Segundonombre:</strong>
+                            <strong>Fecha Naciemiento:</strong>
+                            {{ $persona->fechaNaciemiento }}
+                        </div>
+
+
+                        <div class="form-group">
+                            <strong>Antecedente Policial:</strong>
+                            {{ $persona->antecedentePolicial }}
+                        </div>
+                        <div class="form-group">
+                            <strong>Fecha Emision:</strong>
+                            {{ $persona->fechaEmision }}
+                        </div>
+                        <div class="form-group">
+                            <strong>Fecha Vencimiento:</strong>
+                            {{ $persona->fechaVencimiento }}
+                        </div>
+                        
+                        <div class="form-group">
+                            <strong>Nro RUC:</strong>
+                            {{ $persona->nroRuc }}
+                        </div>
+                        <div class="form-group">
+                            <strong>Digito Indicador:</strong>
+                            {{ $persona->digitoIndicador }}
+                        </div>
+                        
+                        <div class="form-group">
+                            <strong>Segundo Apellido:</strong>
+                            {{ $persona->segundoApellido }}
+                        </div>
+                        <div class="form-group">
+                            <strong>Apellido Casada:</strong>
+                            {{ $persona->apellidoCasada }}
+                        </div>
+                        
+                        <div class="form-group">
+                            <strong>Segundo Nombre:</strong>
                             {{ $persona->segundoNombre }}
                         </div>
                         <div class="form-group">
                             <strong>Sexo:</strong>
                             {{ $persona->sexo }}
                         </div>
+                        
                         <div class="form-group">
-                            <strong>Fechanaciemiento:</strong>
-                            {{ $persona->fechaNaciemiento }}
-                        </div>
-                        <div class="form-group">
-                            <strong>Paisnacimiento:</strong>
+                            <strong>Pais Nacimiento:</strong>
                             {{ $persona->paisNacimiento }}
                         </div>
                         <div class="form-group">
-                            <strong>Ciudadnacimiento:</strong>
+                            <strong>Ciudad Nacimiento:</strong>
                             {{ $persona->ciudadNacimiento }}
                         </div>
                         <div class="form-group">
-                            <strong>Paisresidenciaactual:</strong>
+                            <strong>Pais Residencia Actual:</strong>
                             {{ $persona->paisResidenciaActual }}
                         </div>
                         <div class="form-group">
-                            <strong>Estadocivil:</strong>
+                            <strong>Estado Civil:</strong>
                             {{ $persona->estadoCivil }}
                         </div>
                         <div class="form-group">
-                            <strong>Cantidadhijosedades:</strong>
+                            <strong>Cantidad Hijos Edades:</strong>
                             {{ $persona->cantidadHijosEdades }}
                         </div>
                         <div class="form-group">
@@ -105,15 +111,15 @@
                             {{ $persona->correo }}
                         </div>
                         <div class="form-group">
-                            <strong>Calleprincipal:</strong>
+                            <strong>Calle Principal:</strong>
                             {{ $persona->callePrincipal }}
                         </div>
                         <div class="form-group">
-                            <strong>Calletransversal:</strong>
+                            <strong>Calle Transversal:</strong>
                             {{ $persona->calleTransversal }}
                         </div>
                         <div class="form-group">
-                            <strong>Nrocasa:</strong>
+                            <strong>Nro Casa:</strong>
                             {{ $persona->nroCasa }}
                         </div>
                         <div class="form-group">
@@ -129,15 +135,15 @@
                             {{ $persona->barrio }}
                         </div>
                         <div class="form-group">
-                            <strong>Cargounibe:</strong>
+                            <strong>Cargo Unibe:</strong>
                             {{ $persona->cargoUnibe }}
                         </div>
                         <div class="form-group">
-                            <strong>Areadesempeño:</strong>
+                            <strong>Area Desempeño:</strong>
                             {{ $persona->areaDesempeño }}
                         </div>
                         <div class="form-group">
-                            <strong>Lugardesempeñoasuncionsanlorenzo:</strong>
+                            <strong>Lugar desempeño (asuncion / sanlorenzo):</strong>
                             {{ $persona->lugarDesempeñoAsuncionSanLorenzo }}
                         </div>
                         <div class="form-group">
@@ -145,27 +151,27 @@
                             {{ $persona->gradoAcademico }}
                         </div>
                         <div class="form-group">
-                            <strong>Subirdocumentoidentidad:</strong>
+                            <strong>Subir Documento Identidad:</strong>
                             {{ $persona->subirDocumentoIdentidad }}
                         </div>
                         <div class="form-group">
-                            <strong>Subircv:</strong>
+                            <strong>Subir Cv:</strong>
                             {{ $persona->subirCv }}
                         </div>
                         <div class="form-group">
-                            <strong>Adjtitulosgrado:</strong>
+                            <strong>Adj Titulos Grado:</strong>
                             {{ $persona->adjTitulosGrado }}
                         </div>
                         <div class="form-group">
-                            <strong>Adjtitulopostgrado:</strong>
+                            <strong>Adj Titulo Postgrado:</strong>
                             {{ $persona->adjTituloPostgrado }}
                         </div>
                         <div class="form-group">
-                            <strong>Adjotroscertificados:</strong>
+                            <strong>Adj otros Certificados:</strong>
                             {{ $persona->adjOtrosCertificados }}
                         </div>
                         <div class="form-group">
-                            <strong>Adjregistroprofesional:</strong>
+                            <strong>Adj Registro Profesional:</strong>
                             {{ $persona->adjRegistroProfesional }}
                         </div>
                         <div class="form-group">
@@ -173,7 +179,7 @@
                             {{ $persona->enfermedades }}
                         </div>
                         <div class="form-group">
-                            <strong>Contactoemergencia:</strong>
+                            <strong>Contacto Emergencia:</strong>
                             {{ $persona->contactoEmergencia }}
                         </div>
 
