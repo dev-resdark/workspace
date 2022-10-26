@@ -40,9 +40,6 @@
 										<th>Fechaemision</th>
 										<th>Fechavencimiento</th>
 										<th>Nrocedula</th>
-										<div>
-											<h1>ver más</h1>
-										</div>
 										<th>Nroruc</th>
 										<th>Digitoindicador</th>
 										<th>Primerapellido</th>
